@@ -1,0 +1,100 @@
+:root {
+    --primary: #222;
+    --secondary: #444;
+    --accent: #0a66c2;
+    --light: #f4f4f4;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header {
+    background: var(--primary);
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#menu {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.navigation {
+    display: none;
+    flex-direction: column;
+}
+
+.navigation.open {
+    display: flex;
+}
+
+.navigation li {
+    list-style: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background: var(--secondary);
+}
+
+/* MAIN */
+main {
+    padding: 1rem;
+}
+
+h1, h2 {
+    margin: 0.5rem 0;
+}
+
+section {
+    background: var(--light);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* COURSE BUTTONS */
+.courses button {
+    margin: 5px;
+    padding: 8px;
+    border: none;
+    background: var(--secondary);
+    color: white;
+    cursor: pointer;
+}
+
+/* COURSE CARDS */
+.course-card {
+    padding: 10px;
+    margin: 5px 0;
+    background: #ddd;
+}
+
+.course-card.completed {
+    background: var(--accent);
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: var(--primary);
+    color: white;
+}

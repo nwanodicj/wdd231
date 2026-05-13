@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex !important;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+
+    section:nth-child(3) {
+        grid-column: span 2;
+    }
+}
