@@ -10,7 +10,16 @@ body {
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* HEADER */
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: var(--primary);
     color: white;
     padding: 10px;
@@ -30,6 +39,7 @@ header {
     cursor: pointer;
 }
 
+/* NAV */
 .navigation {
     display: none;
     flex-direction: column;
@@ -37,10 +47,6 @@ header {
 
 .navigation.open {
     display: flex;
-}
-
-.navigation li {
-    list-style: none;
 }
 
 .navigation a {
@@ -54,13 +60,13 @@ header {
     background: var(--secondary);
 }
 
+.navigation a.active {
+    background: var(--accent);
+}
+
 /* MAIN */
 main {
     padding: 1rem;
-}
-
-h1, h2 {
-    margin: 0.5rem 0;
 }
 
 section {
@@ -69,7 +75,7 @@ section {
     margin-bottom: 1rem;
 }
 
-/* COURSE BUTTONS */
+/* COURSES */
 .courses button {
     margin: 5px;
     padding: 8px;
@@ -79,7 +85,10 @@ section {
     cursor: pointer;
 }
 
-/* COURSE CARDS */
+.courses button:hover {
+    background: var(--accent);
+}
+
 .course-card {
     padding: 10px;
     margin: 5px 0;
@@ -97,4 +106,9 @@ footer {
     padding: 1rem;
     background: var(--primary);
     color: white;
+}
+
+.social img {
+    width: 30px;
+    margin: 0 5px;
 }

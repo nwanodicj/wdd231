@@ -5,12 +5,14 @@
     }
 
     .navigation {
-        display: flex !important;
+        display: flex;
         flex-direction: row;
         gap: 15px;
     }
 
     main {
+        max-width: 1000px;
+        margin: 0 auto;
         display: grid;
         grid-template-columns: 2fr 1fr;
         gap: 1rem;

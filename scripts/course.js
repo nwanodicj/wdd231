@@ -13,8 +13,11 @@ function displayCourses(courseList) {
 
     courseList.forEach(course => {
         const div = document.createElement("div");
-        div.textContent = course.code;
         div.classList.add("course-card");
+
+        div.innerHTML = `
+            <strong>${course.code}</strong> - ${course.credits} credits
+        `;
 
         if (course.completed) {
             div.classList.add("completed");
@@ -23,12 +26,10 @@ function displayCourses(courseList) {
         container.appendChild(div);
     });
 
-    // TOTAL CREDITS
     const total = courseList.reduce((sum, c) => sum + c.credits, 0);
     document.querySelector("#totalCredits").textContent = total;
 }
 
-/* FILTER BUTTONS */
 document.querySelector("#all").addEventListener("click", () => {
     displayCourses(courses);
 });
@@ -41,5 +42,4 @@ document.querySelector("#cse").addEventListener("click", () => {
     displayCourses(courses.filter(c => c.type === "CSE"));
 });
 
-/* INITIAL LOAD */
 displayCourses(courses);
