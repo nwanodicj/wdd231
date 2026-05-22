@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Delta Tech Solutions",
+    "address": "12 Effurun Road, Warri",
+    "phone": "+234 801 111 2222",
+    "website": "https://deltatech.com",
+    "image": "logo-tech-solution.svg",
+    "membership": 3,
+    "tagline": "Innovating Your Future"
+  },
+  {
+    "name": "Asaba Retail Hub",
+    "address": "45 Nnebisi Road, Asaba",
+    "phone": "+234 802 333 4444",
+    "website": "https://asabaretail.com",
+    "image": "logo-retail-hub.svg",
+    "membership": 2,
+    "tagline": "Everything You Need"
+  },
+  {
+    "name": "Warri Logistics",
+    "address": "7 Airport Road, Warri",
+    "phone": "+234 803 555 6666",
+    "website": "https://warrilogistics.com",
+    "image": "logo-logistics.svg",
+    "membership": 1,
+    "tagline": "Fast and Reliable Delivery"
+  },
+  {
+    "name": "Delta Foods",
+    "address": "22 Okpanam Road, Asaba",
+    "phone": "+234 804 777 8888",
+    "website": "https://deltafoods.com",
+    "image": "bowl-chopsticks.svg",
+    "membership": 3,
+    "tagline": "Taste the Best"
+  },
+  {
+    "name": "Oil City Services",
+    "address": "30 Refinery Road, Warri",
+    "phone": "+234 805 999 0000",
+    "website": "https://oilcity.com",
+    "image": "logo-oil-city.png",
+    "membership": 2,
+    "tagline": "Powering Industries"
+  },
+  {
+    "name": "Asaba Fashion House",
+    "address": "18 Summit Road, Asaba",
+    "phone": "+234 806 121 3434",
+    "website": "https://asabafashion.com",
+    "image": "logo-fashion.svg",
+    "membership": 1,
+    "tagline": "Style Meets Elegance"
+  },
+  {
+    "name": "Delta Construction Ltd",
+    "address": "9 Ughelli Road, Sapele",
+    "phone": "+234 807 565 7878",
+    "website": "https://deltaconstruct.com",
+    "image": "logo-construction.svg",
+    "membership": 3,
+    "tagline": "Building the Future"
+  }
+]

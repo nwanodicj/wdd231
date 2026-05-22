@@ -1,0 +1,48 @@
+@media (min-width: 768px) {
+
+    /* ===== NAVIGATION ===== */
+    #menuBtn {
+        display: none;
+    }
+
+    nav {
+        display: block !important;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    nav li {
+        border: none;
+    }
+
+    nav a {
+        padding: 0.5rem 1rem;
+    }
+
+    /* ===== DIRECTORY GRID ===== */
+    #directory.grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* ===== FOOTER ===== */
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact, .social, .dev-info {
+        flex: 1;
+    }
+
+    .social {
+        text-align: center;
+    }
+
+    .dev-info {
+        text-align: right;
+    }
+}

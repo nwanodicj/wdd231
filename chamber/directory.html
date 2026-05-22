@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title & SEO -->
+    <title>Delta Chamber of Commerce - Directory</title>
+    <meta name="description" content="Explore business listings in the Delta Chamber of Commerce directory.">
+    <meta name="author" content="Justice Chinwike Stephen">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/marker.svg">
+
+    <!-- Open Graph (Social Media Meta) -->
+    <meta property="og:title" content="Delta Chamber of Commerce Directory">
+    <meta property="og:description" content="Find trusted businesses and services in Delta.">
+    <meta property="og:image" content="images/social-preview.jpg">
+    <meta property="og:url" content="https://yourdomain.com/chamber/directory.html">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/directory.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <img src="images/marker.svg" alt="Delta Chamber Logo">
+            <h2>Delta Chamber of Commerce</h2>
+        </div>
+
+        <!-- Hamburger Menu -->
+        <button id="menuBtn">☰</button>
+
+        <!-- Navigation -->
+        <nav id="navMenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <h1>Business Directory</h1>
+
+        <!-- View Toggle -->
+        <div class="view-toggle">
+            <button id="gridView">Grid View</button>
+            <button id="listView">List View</button>
+        </div>
+
+        <!-- Directory Display Area -->
+        <section id="directory" class="grid">
+            <!-- JavaScript will insert member cards here -->
+        </section>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+
+            <!-- Contact Info -->
+            <div class="contact">
+                <p><strong>Delta Chamber of Commerce</strong></p>
+                <p>10 Marina Road, Lagos, Nigeria</p>
+                <p>Email: justicenwanodi1@gmail.com</p>
+                <p>Phone: +234 8073390845</p>
+            </div>
+
+            <!-- Social Media -->
+            <div class="social">
+                <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
+                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            </div>
+
+            <!-- Development Info -->
+            <div class="dev-info">
+                <p>WDD231 Class Project</p>
+                <p>Justice Chinwike Stephen</p>
+                <p>&copy; <span id="year"></span> Delta Chamber of Commerce</p>
+                <p>Last Modification: <span id="lastModified"></span></p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
