@@ -21,12 +21,14 @@ function displayMembers(members) {
         card.classList.add("card");
 
         card.innerHTML = `
-            <img src="images/${member.image}" alt="${member.name}">
-            <h3>${member.name}</h3>
-            <p>${member.tagline}</p>
-            <p><strong>Address:</strong> ${member.address}</p>
-            <p><strong>Phone:</strong> ${member.phone}</p>
-            <p><a href="${member.website}" target="_blank">Visit Website</a></p>
+           <img src="images/${member.image}" alt="${member.name} logo">
+           <div class="card-info">
+               <h3>${member.name}</h3>
+               <p>${member.tagline}</p>
+               <p><strong>Address:</strong> ${member.address}</p>
+               <p><strong>Phone:</strong> ${member.phone}</p>
+               <p><a href="${member.website}" target="_blank">Visit Website</a></p>
+           </div>
         `;
 
         directory.appendChild(card);
