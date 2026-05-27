@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title & SEO -->
+    <title>Delta Chamber of Commerce - Home</title>
+    <meta name="description" content="Welcome to Delta Chamber of Commerce - supporting local businesses and economic growth.">
+    <meta name="author" content="Justice Chinwike Stephen">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/marker.svg">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Delta Chamber of Commerce Home">
+    <meta property="og:description" content="Connecting businesses and opportunities in Delta.">
+    <meta property="og:image" content="images/social-preview.jpg">
+    <meta property="og:url" content="https://yourdomain.com/chamber/index.html">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
+    <script src="scripts/main.js"></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <img src="images/marker.svg" alt="Delta Chamber Logo">
+            <h2>Delta Chamber of Commerce</h2>
+        </div>
+
+        <button id="menuBtn">☰</button>
+
+        <nav id="navMenu">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT (HOME PAGE) -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <img src="images/spotlight-page.PNG" alt="City skyline">
+
+            <div class="hero-text">
+                <h1>Welcome to Delta Chamber of Commerce</h1>
+                <p>Empowering businesses, connecting communities, driving growth and much more.</p>
+                <a href="join.html" class="cta">Join the Chamber</a>
+            </div>
+        </section>
+
+        <!-- EVENTS SECTION -->
+        <section class="events">
+            <h2>Current Events</h2>
+            <ul>
+                <li>Business Networking Meetup - Every Monday</li>
+                <li>Entrepreneur Workshop Series</li>
+                <li>Small Business Funding Opportunities</li>
+            </ul>
+        </section>
+
+        <!-- WEATHER SECTION -->
+        <section class="weather">
+            <h2>Weather</h2>
+
+            <div class="current-weather">
+                <p>Temperature: <span id="temp"></span>°C</p>
+                <p>Condition: <span id="description"></span></p>
+            </div>
+
+            <div class="forecast">
+                <h3>3-Day Forecast</h3>
+                <div id="forecast"></div>
+            </div>
+        </section>
+
+        <!-- SPOTLIGHT SECTION -->
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div id="spotlight-container"></div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+
+            <div class="contact">
+                <p><strong>Delta Chamber of Commerce</strong></p>
+                <p>10 Marina Road, Lagos, Nigeria</p>
+                <p>Email: justicenwanodi1@gmail.com</p>
+                <p>Phone: +234 8073390845</p>
+            </div>
+
+            <div class="social">
+                <a href="#"><img src="images/youtube-logo.avif" alt="YouTube"></a>
+                <a href="#"><img src="images/twitter-logo.PNG" alt="Twitter"></a>
+                <a href="#"><img src="images/linkedin-logo.PNG" alt="LinkedIn"></a>
+            </div>
+
+            <div class="dev-info">
+                <p>WDD231 Class Project</p>
+                <p>Justice Chinwike Stephen</p>
+                <p>&copy; <span id="year"></span> Delta Chamber of Commerce</p>
+                <p>Last Modification: <span id="lastModified"></span></p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
