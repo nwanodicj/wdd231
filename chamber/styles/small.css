@@ -382,3 +382,90 @@ footer img {
 .thankyou p {
     margin: 0.5rem 0;
 }
+
+/*===== Making the Join page Appear More Professional =====*/
+
+/* Two column design (Moves membeship card to right and form in the left) */
+.join-container {
+    display: grid;
+    gap: 2rem;
+}
+
+/* Desktop layout */
+@media (min-width: 768px) {
+    .join-container {
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+}
+
+/* Form styling: Improves readability and spacing */
+.join-form {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.join-form input,
+.join-form select,
+.join-form textarea {
+    width: 100%;
+}
+
+/*  MEMBERSHIP CARDS SECTION: Uses grid layout for clean alignment */
+.membership-cards {
+    display: grid;
+    gap: 1rem;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 12px;
+    background: #f9f9f9;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* CARD ENTRY ANIMATION. Makes cards fade in smoothly. Runs on page load */
+.card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.6s forwards;
+}
+
+.card:nth-child(1) { animation-delay: 0.2s; }
+.card:nth-child(2) { animation-delay: 0.4s; }
+.card:nth-child(3) { animation-delay: 0.6s; }
+.card:nth-child(4) { animation-delay: 0.8s; }
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*  BUTTON STYLING. Applies to submit button. Also used by membership cards */
+.submit-btn,
+.card button {
+    background: #0077cc;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.submit-btn:hover,
+.card button:hover {
+    background: #005fa3;
+}
