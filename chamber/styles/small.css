@@ -469,3 +469,60 @@ footer img {
 .card button:hover {
     background: #005fa3;
 }
+
+/*====== Styling for Discover Page ======*/
+/* =========================================
+   DISCOVER PAGE GRID - SMALL SCREENS
+   - Each card takes full width
+========================================= */
+.discover-grid {
+    display: grid;
+    gap: 1rem;
+
+    grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        "card6"
+        "card7"
+        "card8";
+}
+
+/* =========================================
+   DISCOVER CARD DESIGN
+========================================= */
+.discover-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Image styling */
+.discover-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* =========================================
+   VISIT MESSAGE BOX
+========================================= */
+.visit-message {
+    background: #f0f8ff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 5px solid #0077cc;
+}
+
+/* =========================================
+   IMAGE HOVER EFFECT (ONLY DESKTOP)
+========================================= */
+@media (min-width: 641px) {
+    .discover-card img:hover {
+        transform: scale(1.05);
+        filter: brightness(1.1);
+        transition: 0.3s ease;
+    }
+}
