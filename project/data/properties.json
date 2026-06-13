@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Modern 2-Bedroom Apartment",
+    "location": "Asaba",
+    "price": "₦800,000/year",
+    "image": "apartment1.webp",
+    "description": "A modern apartment with spacious rooms, tiled floors, and secure parking.",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Luxury Duplex",
+    "location": "Warri",
+    "price": "₦2,500,000/year",
+    "image": "duplex1.webp",
+    "description": "A luxury duplex with a private compound, generator, and security system.",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Affordable Self-Contain",
+    "location": "Sapele",
+    "price": "₦300,000/year",
+    "image": "selfcontain1.webp",
+    "description": "A budget-friendly self-contained apartment suitable for students and singles.",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "name": "3-Bedroom Flat",
+    "location": "Ughelli",
+    "price": "₦1,200,000/year",
+    "image": "flat1.webp",
+    "description": "Spacious 3-bedroom flat in a quiet neighborhood with good road access.",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "name": "Mini Flat",
+    "location": "Asaba",
+    "price": "₦500,000/year",
+    "image": "miniflat1.webp",
+    "description": "Comfortable mini flat with modern fittings and steady water supply.",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Student Hostel Room",
+    "location": "Abraka",
+    "price": "₦150,000/year",
+    "image": "hostel1.webp",
+    "description": "Affordable student accommodation close to campus with shared facilities.",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "name": "Executive Bungalow",
+    "location": "Warri",
+    "price": "₦1,800,000/year",
+    "image": "bungalow1.webp",
+    "description": "Modern bungalow with parking space and constant electricity.",
+    "featured": true
+  },
+  {
+    "id": 8,
+    "name": "Studio Apartment",
+    "location": "Asaba",
+    "price": "₦400,000/year",
+    "image": "studio1.webp",
+    "description": "Compact studio apartment ideal for singles.",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "name": "Furnished Apartment",
+    "location": "Warri",
+    "price": "₦2,000,000/year",
+    "image": "furnished1.webp",
+    "description": "Fully furnished apartment with modern appliances.",
+    "featured": true
+  },
+  {
+    "id": 10,
+    "name": "1-Bedroom Flat",
+    "location": "Sapele",
+    "price": "₦350,000/year",
+    "image": "onebed1.webp",
+    "description": "Affordable one-bedroom flat with water and electricity.",
+    "featured": false
+  },
+  {
+    "id": 11,
+    "name": "Duplex with Pool",
+    "location": "Asaba",
+    "price": "₦3,500,000/year",
+    "image": "duplex2.webp",
+    "description": "Luxury duplex with swimming pool and security.",
+    "featured": true
+  },
+  {
+    "id": 12,
+    "name": "Shared Apartment",
+    "location": "Abraka",
+    "price": "₦200,000/year",
+    "image": "shared1.webp",
+    "description": "Shared apartment suitable for students.",
+    "featured": false
+  },
+  {
+    "id": 13,
+    "name": "Terrace House",
+    "location": "Warri",
+    "price": "₦1,600,000/year",
+    "image": "terrace1.webp",
+    "description": "Beautiful terrace house in a secured estate.",
+    "featured": true
+  },
+  {
+    "id": 14,
+    "name": "Penthouse Apartment",
+    "location": "Asaba",
+    "price": "₦4,000,000/year",
+    "image": "penthouse1.webp",
+    "description": "High-end penthouse with amazing city view.",
+    "featured": true
+  },
+  {
+    "id": 15,
+    "name": "Low-Cost Room",
+    "location": "Ughelli",
+    "price": "₦120,000/year",
+    "image": "room1.webp",
+    "description": "Very affordable single room for basic living.",
+    "featured": false
+  }
+]

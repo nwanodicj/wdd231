@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Listings | Delta Rental Hub</title>
+    <meta name="description" content="Browse available rental properties in Delta State.">
+    <meta name="author" content="Justice Chinwike Stephen">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/listings.js" defer></script>
+</head>
+
+<!-- MODAL -->
+<div id="property-modal" class="modal">
+    <div class="modal-content">
+
+        <span class="close-btn">&times;</span>
+
+        <div id="modal-details"></div>
+
+    </div>
+</div>
+
+<body>
+
+<header>
+    <h1>Delta Rental Hub</h1>
+
+    <!-- Hamburger -->
+    <button id="menuBtn">☰</button>
+
+    <nav id="navMenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listings.html" class="active">Listings</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2>Available Properties</h2>
+    <div id="listings-container" class="listings-grid"></div>
+</main>
+
+<footer>
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>Delta Rental Hub</h3>
+            <p>10 Marina Road, Lagos, Nigeria</p>
+            <p>Email: justicenwanodi1@gmail.com</p>
+            <p>Phone: +234 8073390845</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <p><a href="index.html">Home</a></p>
+            <p><a href="listings.html">Listings</a></p>
+            <p><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="footer-section social">
+            <h3>Follow Us</h3>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener">
+                <img src="images/youtube-logo.avif" alt="YouTube">
+            </a>
+            <a href="https://twitter.com/" target="_blank" rel="noopener">
+                <img src="images/twitter-logo.png" alt="Twitter">
+            </a>
+            <a href="https://www.linkedin.com/in/justice-nwanodi-9560a5267/" target="_blank" rel="noopener">
+                <img src="images/linkedin-logo.png" alt="LinkedIn">
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Delta Rental Hub</p>
+        <p>WDD231 Project | Justice Chinwike Stephen</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+        <p><a href="attributions.html">Attributions</a></p>
+        <p><a href="#">Project Video</a></p>
+    </div>
+
+</footer>
+
+</body>
+</html>

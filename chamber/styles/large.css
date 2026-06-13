@@ -47,16 +47,19 @@
     }
 }
 
-/*===== Discover page Large Screen ======*/
 /* =========================================
    LARGE SCREENS
-   - 3 cards per row (NOT uniform on purpose)
+   - 4 cards per row using grid areas
 ========================================= */
 @media (min-width: 1025px) {
+
     .discover-grid {
+        display: grid;
+        gap: 1rem;
+
         grid-template-areas:
-            "card1 card2 card3"
-            "card4 card5 card6"
-            "card7 card8 .";
+            "card1 card2 card3 card4"
+            "card5 card6 card7 card8";
     }
+
 }

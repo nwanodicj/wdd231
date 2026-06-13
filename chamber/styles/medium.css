@@ -1,13 +1,18 @@
 /* =========================================
    MEDIUM SCREENS
-   - 2 cards per row
+   - 2 cards per row using grid areas
 ========================================= */
 @media (min-width: 641px) {
+
     .discover-grid {
+        display: grid;
+        gap: 1rem;
+
         grid-template-areas:
             "card1 card2"
             "card3 card4"
             "card5 card6"
             "card7 card8";
     }
+
 }
