@@ -85,7 +85,7 @@
     "name": "1-Bedroom Flat",
     "location": "Sapele",
     "price": "₦350,000/year",
-    "image": "onebed1.webp",
+    "image": "onebed1.png",
     "description": "Affordable one-bedroom flat with water and electricity.",
     "featured": false
   },
@@ -94,7 +94,7 @@
     "name": "Duplex with Pool",
     "location": "Asaba",
     "price": "₦3,500,000/year",
-    "image": "duplex2.webp",
+    "image": "duplex2.png",
     "description": "Luxury duplex with swimming pool and security.",
     "featured": true
   },
@@ -103,7 +103,7 @@
     "name": "Shared Apartment",
     "location": "Abraka",
     "price": "₦200,000/year",
-    "image": "shared1.webp",
+    "image": "shared1.png",
     "description": "Shared apartment suitable for students.",
     "featured": false
   },
@@ -112,7 +112,7 @@
     "name": "Terrace House",
     "location": "Warri",
     "price": "₦1,600,000/year",
-    "image": "terrace1.webp",
+    "image": "terrace1.png",
     "description": "Beautiful terrace house in a secured estate.",
     "featured": true
   },
@@ -121,7 +121,7 @@
     "name": "Penthouse Apartment",
     "location": "Asaba",
     "price": "₦4,000,000/year",
-    "image": "penthouse1.webp",
+    "image": "penthouse1.png",
     "description": "High-end penthouse with amazing city view.",
     "featured": true
   },
@@ -130,7 +130,7 @@
     "name": "Low-Cost Room",
     "location": "Ughelli",
     "price": "₦120,000/year",
-    "image": "room1.webp",
+    "image": "room1.png",
     "description": "Very affordable single room for basic living.",
     "featured": false
   }
